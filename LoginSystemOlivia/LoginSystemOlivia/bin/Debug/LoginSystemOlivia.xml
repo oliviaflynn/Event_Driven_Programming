@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LoginSystemOlivia</name>
+    </assembly>
+    <members>
+        <member name="T:LoginSystemOlivia.ChangePassword">
+            <summary>
+            Change Password Form
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.ChangePassword.#ctor">
+            <summary>
+            Initialize the Form
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.ChangePassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.ChangePassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LoginSystemOlivia.ChangePassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.ForgotPassword">
+            <summary>
+            Forgot Password Class
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.ForgotPassword.#ctor">
+            <summary>
+            Build the form Forgot Password
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.ForgotPassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.ForgotPassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LoginSystemOlivia.ForgotPassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.Login_Screen">
+            <summary>
+            Login Form, First Screen of Application
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Login_Screen.#ctor">
+            <summary>
+            Initialize the Login Form
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.Login_Screen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Login_Screen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LoginSystemOlivia.Login_Screen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.Help.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Help.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Help.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.Main">
+            <summary>
+            Main Form
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Main.#ctor(System.Windows.Forms.Form,LoginSystemOlivia.User)">
+            <summary>
+            Referance to user object from previous form
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Main.#ctor(LoginSystemOlivia.User)">
+            <summary>
+            Referance to user object from previous form
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.Main.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Main.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LoginSystemOlivia.Main.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.Password">
+             <summary>
+             Password Class
+              The password must meet the following strength requirements:
+                (1) Minimum 8 characters
+                (2) Maximum 16 characters
+                (3) Have at least one upper case (A - Z) character
+                (4) Have at least one lower case (a - z) character
+                (5) Have at least one number(0 - 9)
+                (6) Have at least one symbol or special character from this list:
+                 ~ ! @ # $ % ^ &amp; * ( ) _ + - = { } | [ ] \ : " ; ' &lt; &gt; ? , . /
+                (7) Must not contain whitespace such as spaces or tabs
+                (8) Must be free of consecutive identical characters
+            
+             Any password entered by the user must conform to the requirements above.
+             </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Password.isPassword(System.String)">
+            <summary>
+            Password Checker
+            </summary>
+            <param name="pw"></param>
+            <returns>bool valid</returns>
+        </member>
+        <member name="M:LoginSystemOlivia.Password.getLastErrorMessage">
+            <summary>
+            Gets last error message thrown, can be used to inform user
+            </summary>
+            <returns>errorMessages</returns>
+        </member>
+        <member name="M:LoginSystemOlivia.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.Register">
+            <summary>
+            Register Form for Registering new users
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Register.#ctor">
+            <summary>
+            Initialize the Form
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.Register.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LoginSystemOlivia.Register.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LoginSystemOlivia.Register.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.User">
+            <summary>
+            User Class
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.firstName">
+            <summary>
+            Variable for users first name
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.lastName">
+            <summary>
+            Variable for users last name
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.userID">
+            <summary>
+            Variable for users ID
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.password">
+            <summary>
+            Variable for users password
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.role">
+            <summary>
+            Variable for users role
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.accountNumber">
+            <summary>
+            Variable for users account number
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.emailAddress">
+            <summary>
+            Variable for users email address
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.adminFullAccess">
+            <summary>
+            Variable bool for full access to system or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.adminReportPrivileges">
+            <summary>
+            Variable bool for report privileges of system or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.genAuditReports">
+            <summary>
+            Variable bool to generate audit reports or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.viewAuditRecords">
+            <summary>
+            Variable bool to view audit reports or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.inputAccountPayments">
+            <summary>
+            Variable bool to input account payements or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.authAccountPayments">
+            <summary>
+            Variable bool to authorise account payments or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.manageAccount">
+            <summary>
+            Variable bool to manage accounts or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.viewAccountInformation">
+            <summary>
+            Variable bool view account information or not
+            </summary>
+        </member>
+        <member name="F:LoginSystemOlivia.User.viewAccountBalances">
+            <summary>
+            Variable bool to view account balances or not
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.FirstName">
+            <summary>
+            Getters and Setters for User Class
+            </summary> 
+            First Name of User
+        </member>
+        <member name="P:LoginSystemOlivia.User.LastName">
+            <summary>
+            Last Name of User
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.UserID">
+            <summary>
+            UserID for User
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.Password">
+            <summary>
+            Password for User
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.Role">
+            <summary>
+            Role for User
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.AccountNumber">
+            <summary>
+            Account Number for User, Only for Customers
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.EmailAddress">
+            <summary>
+            Email Address for User
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.AdminFullAccess">
+            <summary>
+            Full Privileges
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.AdminReportPrivileges">
+            <summary>
+            Admin Privileges
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.GenAuditReports">
+            <summary>
+            Privileges to Audit Reports
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.ViewAuditRecords">
+            <summary>
+            Privileges View Audit Records
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.InputAccountPayments">
+            <summary>
+            Privileges to Input payments to accounts
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.AuthAccountPayments">
+            <summary>
+            Privileges to Authorise Account Payments
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.ManageAccount">
+            <summary>
+            Privileges to Manage Accounts
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.ViewAccountInformation">
+            <summary>
+            Privileges to View Account Information
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.User.ViewAccountBalances">
+            <summary>
+            Privileges to view account balances
+            </summary>
+        </member>
+        <member name="T:LoginSystemOlivia.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LoginSystemOlivia.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
